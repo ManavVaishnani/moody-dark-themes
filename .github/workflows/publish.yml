@@ -1,0 +1,28 @@
+name: Publish Extension
+
+on:
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions tab
+  push:
+    tags:
+      - 'v*' # Triggers when you push a version tag like v0.0.1
+
+permissions:
+  contents: read
+  id-token: write # Required for OpenID Connect (OIDC) authentication
+
+jobs:
+  publish:
+    name: Publish to VS Code Marketplace
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Publish Extension via OIDC
+        run: npx @vscode/vsce publish --oidc
+
