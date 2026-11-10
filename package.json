@@ -4,7 +4,7 @@
   "description": "A collection of moody, low-contrast dark themes engineered to reduce eye strain.",
   "license": "MIT",
   "icon": "images/icon.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "ManavVaishnani",
   "engines": {
     "vscode": "^1.90.0"
