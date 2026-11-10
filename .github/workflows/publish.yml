@@ -21,8 +21,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Publish Extension via OIDC
-        run: npx @vscode/vsce publish --oidc
+        run: npx @vscode/vsce@latest publish --oidc
 
