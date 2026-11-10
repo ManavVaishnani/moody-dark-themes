@@ -26,3 +26,6 @@ jobs:
       - name: Publish Extension via OIDC
         run: npx @vscode/vsce@latest publish --oidc
 
+      - name: Publish to Open VSX
+        run: npx ovsx publish -p ${{ secrets.OVSX_PAT }}
+
