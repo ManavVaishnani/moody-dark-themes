@@ -1,0 +1,29 @@
+{
+  "name": "moody-dark-themes",
+  "displayName": "Moody Dark Themes",
+  "description": "A collection of moody, low-contrast dark themes engineered to reduce eye strain.",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "version": "0.0.1",
+  "publisher": "ManavVaishnani",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Moody Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moody-dark-color-theme.json"
+      },
+      {
+        "label": "Moody Dark Charcoal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moody-dark-charcoal-color-theme.json"
+      }
+    ]
+  }
+}
