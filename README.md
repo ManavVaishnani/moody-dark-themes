@@ -20,7 +20,7 @@ A softer charcoal theme with warm gray tones and muted blue accents. Tailored fo
 
 A deep pine-black theme inspired by damp evergreen forests, featuring sage emerald, frost cyan, and warm barley gold accents.
 
-![Moody Dark Forest Theme](images/moody-dark-forest.svg)
+![Moody Dark Forest Theme](images/moody-dark-forest.png)
 
 ## Installation
 
