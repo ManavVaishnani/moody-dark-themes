@@ -4,8 +4,17 @@ Moody Dark Themes is a collection of calm, low-contrast dark themes for Visual S
 
 ## Themes
 
-- **Moody Dark** - A deep near-black theme with cool blue, lavender, and warm peach accents.
-- **Moody Dark Charcoal** - A softer charcoal theme with warm gray tones and muted blue accents.
+### Moody Dark
+
+A deep near-black theme with cool blue, lavender, and warm peach accents. Designed for high focus and reduced eye fatigue during long coding sessions.
+
+![Moody Dark Theme](images/moody-dark.png)
+
+### Moody Dark Charcoal
+
+A softer charcoal theme with warm gray tones and muted blue accents. Tailored for comfortable contrast in ambient and lower-light environments.
+
+![Moody Dark Charcoal Theme](images/moody-dark-charcoal.png)
 
 ## Installation
 
