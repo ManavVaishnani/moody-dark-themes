@@ -25,10 +25,10 @@
     "editorRuler.foreground": "#2D2B28",
     "editorBracketMatch.background": "#293846",
     "editorBracketMatch.border": "#92ABC4",
-    "editorBracketHighlight.foreground1": "#A09B93",
-    "editorBracketHighlight.foreground2": "#92ABC4",
-    "editorBracketHighlight.foreground3": "#E8C9A7",
-    "editorBracketHighlight.foreground4": "#A09B93",
+    "editorBracketHighlight.foreground1": "#92ABC4",
+    "editorBracketHighlight.foreground2": "#E8C9A7",
+    "editorBracketHighlight.foreground3": "#95C09B",
+    "editorBracketHighlight.foreground4": "#DA857E",
     "editorBracketHighlight.foreground5": "#92ABC4",
     "editorBracketHighlight.foreground6": "#E8C9A7",
     "editorInlayHint.background": "#262522",
@@ -231,7 +231,7 @@
   },
   "tokenColors": [
     {
-      "name": "Comments — warm taupe gray, italic",
+      "name": "Comments \u2014 warm taupe gray, italic",
       "scope": [
         "comment",
         "punctuation.definition.comment",
@@ -247,7 +247,7 @@
       }
     },
     {
-      "name": "Keywords — dusty denim blue",
+      "name": "Keywords \u2014 dusty denim blue",
       "scope": [
         "keyword",
         "storage",
@@ -280,7 +280,7 @@
       }
     },
     {
-      "name": "Punctuation and operators — warm stone gray",
+      "name": "Punctuation and operators \u2014 warm stone gray",
       "scope": [
         "keyword.operator",
         "punctuation",
@@ -332,7 +332,7 @@
       }
     },
     {
-      "name": "Identifiers — soft parchment cream",
+      "name": "Identifiers \u2014 soft parchment cream",
       "scope": [
         "variable",
         "variable.other",
@@ -372,7 +372,7 @@
       }
     },
     {
-      "name": "Functions and decorators — soft twilight sky",
+      "name": "Functions and decorators \u2014 soft twilight sky",
       "scope": [
         "entity.name.function",
         "support.function",
@@ -407,7 +407,7 @@
       }
     },
     {
-      "name": "Types — muted periwinkle (distinct from functions)",
+      "name": "Types \u2014 muted periwinkle (distinct from functions)",
       "scope": [
         "entity.name.type",
         "entity.name.class",
@@ -437,7 +437,7 @@
       }
     },
     {
-      "name": "Strings — warm terracotta lamp",
+      "name": "Strings \u2014 warm terracotta lamp",
       "scope": [
         "string",
         "string.quoted",
@@ -465,7 +465,7 @@
       }
     },
     {
-      "name": "Numbers, constants, escapes — aged brass gold",
+      "name": "Numbers, constants, escapes \u2014 aged brass gold",
       "scope": [
         "constant.numeric",
         "constant.language",
@@ -493,7 +493,7 @@
       }
     },
     {
-      "name": "Tags and YAML keys — dusty blue",
+      "name": "Tags and YAML keys \u2014 dusty blue",
       "scope": [
         "entity.name.tag",
         "entity.name.tag.yaml",
@@ -506,7 +506,7 @@
       }
     },
     {
-      "name": "Markdown headings — warm ivory, bold",
+      "name": "Markdown headings \u2014 warm ivory, bold",
       "scope": [
         "markup.heading",
         "entity.name.section.markdown",
@@ -519,7 +519,7 @@
       }
     },
     {
-      "name": "Markdown bold — frame, bold",
+      "name": "Markdown bold \u2014 frame, bold",
       "scope": [
         "markup.bold",
         "markup.bold string"
@@ -530,7 +530,7 @@
       }
     },
     {
-      "name": "Markdown italic — frame, italic",
+      "name": "Markdown italic \u2014 frame, italic",
       "scope": [
         "markup.italic",
         "markup.italic string"
@@ -541,7 +541,7 @@
       }
     },
     {
-      "name": "Markdown strikethrough — muted",
+      "name": "Markdown strikethrough \u2014 muted",
       "scope": [
         "markup.strikethrough"
       ],
@@ -551,7 +551,7 @@
       }
     },
     {
-      "name": "Markdown links — blue, underline",
+      "name": "Markdown links \u2014 blue, underline",
       "scope": [
         "markup.underline.link",
         "string.other.link",
@@ -565,7 +565,7 @@
       }
     },
     {
-      "name": "Markdown quote — comment",
+      "name": "Markdown quote \u2014 comment",
       "scope": [
         "markup.quote"
       ],
@@ -575,7 +575,7 @@
       }
     },
     {
-      "name": "Markdown list bullets and quote marks — blue",
+      "name": "Markdown list bullets and quote marks \u2014 blue",
       "scope": [
         "punctuation.definition.quote.begin.markdown",
         "punctuation.definition.list.begin.markdown",
@@ -587,7 +587,7 @@
       }
     },
     {
-      "name": "Diff inserted — sage green",
+      "name": "Diff inserted \u2014 sage green",
       "scope": [
         "markup.inserted",
         "punctuation.definition.inserted"
@@ -598,7 +598,7 @@
       }
     },
     {
-      "name": "Diff deleted — warm coral red",
+      "name": "Diff deleted \u2014 warm coral red",
       "scope": [
         "markup.deleted",
         "punctuation.definition.deleted"
@@ -609,7 +609,7 @@
       }
     },
     {
-      "name": "Diff changed — dusty blue",
+      "name": "Diff changed \u2014 dusty blue",
       "scope": [
         "markup.changed",
         "punctuation.definition.changed"
@@ -620,7 +620,7 @@
       }
     },
     {
-      "name": "Invalid — warm red, underline",
+      "name": "Invalid \u2014 warm red, underline",
       "scope": [
         "invalid",
         "invalid.illegal",
@@ -630,44 +630,53 @@
         "foreground": "#DA857E",
         "fontStyle": "underline"
       }
+    },
+    {
+      "name": "HTML and JSX attributes",
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": {
+        "foreground": "#DA857E"
+      }
+    },
+    {
+      "name": "JSON and YAML keys",
+      "scope": [
+        "support.type.property-name.json",
+        "entity.name.tag.yaml"
+      ],
+      "settings": {
+        "foreground": "#92ABC4"
+      }
     }
   ],
   "semanticTokenColors": {
-    "namespace": "#9BB5D6",
-    "class": "#9BB5D6",
-    "interface": "#9BB5D6",
-    "type": "#9BB5D6",
-    "typeParameter": "#9BB5D6",
-    "enum": "#9BB5D6",
-    "struct": "#9BB5D6",
-    "class.defaultLibrary": "#9BB5D6",
-    "interface.defaultLibrary": "#9BB5D6",
-    "type.defaultLibrary": "#9BB5D6",
-    "function": "#A3CAE3",
-    "method": "#A3CAE3",
-    "member": "#A3CAE3",
-    "function.defaultLibrary": "#A3CAE3",
-    "method.defaultLibrary": "#A3CAE3",
-    "decorator": "#A3CAE3",
-    "variable": "#DDD9D0",
-    "variable.readonly": "#E6E2D8",
-    "variable.defaultLibrary": "#DDD9D0",
-    "parameter": "#CFCBC2",
-    "property": "#DDD9D0",
-    "property.readonly": "#E6E2D8",
-    "enumMember": "#E8C9A7",
-    "number": "#E8C9A7",
-    "string": "#E2A488",
-    "regexp": "#E2A488",
-    "keyword": "#92ABC4",
-    "operator": "#A09B93",
-    "label": "#92ABC4",
-    "comment": {
-      "foreground": "#87827A",
-      "italic": true
+    "parameter": {
+      "foreground": "#CFCBC2",
+      "fontStyle": "italic"
     },
-    "*.deprecated": {
-      "strikethrough": true
+    "variable.readonly": {
+      "foreground": "#E8C9A7"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#E8C9A7"
+    },
+    "typeParameter": {
+      "foreground": "#E8C9A7",
+      "fontStyle": "italic"
+    },
+    "interface": {
+      "foreground": "#E8C9A7"
+    },
+    "property.declaration": {
+      "foreground": "#CFCBC2"
+    },
+    "enumMember": {
+      "foreground": "#E8C9A7"
     }
   }
 }

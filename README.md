@@ -16,6 +16,12 @@ A softer charcoal theme with warm gray tones and muted blue accents. Tailored fo
 
 ![Moody Dark Charcoal Theme](images/moody-dark-charcoal.png)
 
+### Moody Dark Forest
+
+A deep pine-black theme inspired by damp evergreen forests, featuring sage emerald, frost cyan, and warm barley gold accents.
+
+![Moody Dark Forest Theme](images/moody-dark-forest.svg)
+
 ## Installation
 
 1. Open Visual Studio Code.
@@ -23,7 +29,7 @@ A softer charcoal theme with warm gray tones and muted blue accents. Tailored fo
 3. Search for **Moody Dark Themes**.
 4. Install the extension.
 5. Open the Command Palette and run **Preferences: Color Theme**.
-6. Select **Moody Dark** or **Moody Dark Charcoal**.
+6. Select **Moody Dark**, **Moody Dark Charcoal**, or **Moody Dark Forest**.
 
 ## Development
 

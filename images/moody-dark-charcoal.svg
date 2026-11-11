@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" style="background: transparent; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Monaco, Consolas, monospace;">
+  <defs>
+    <filter id="charcoal-shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="14" in="SourceAlpha"/>
+      <feOffset dx="0" dy="10"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#charcoal-shadow)">
+    <rect x="30" y="20" width="940" height="550" rx="10" fill="#1E1D1B" stroke="#2D2B28" stroke-width="1"/>
+    <path d="M30 20 h940 a10 10 0 0 1 10 10 v28 h-960 v-28 a10 10 0 0 1 10 -10 z" fill="#181716"/>
+    <line x1="30" y1="58" x2="970" y2="58" stroke="#2D2B28" stroke-width="1"/>
+    <circle cx="54" cy="39" r="6" fill="#DA857E"/>
+    <circle cx="74" cy="39" r="6" fill="#E8C9A7"/>
+    <circle cx="94" cy="39" r="6" fill="#95C09B"/>
+    <text x="500" y="43" fill="#87827A" font-size="12" font-weight="500" text-anchor="middle">Moody Dark Charcoal — app.py</text>
+    <rect x="30" y="58" width="48" height="488" fill="#181716" stroke="#2D2B28" stroke-width="1"/>
+    <rect x="30" y="72" width="2" height="24" fill="#92ABC4"/>
+    <g fill="#CFCBC2" transform="translate(44, 74)">
+      <path d="M2 3h16v14H2z" fill="none" stroke="#CFCBC2" stroke-width="1.5" rx="2"/>
+      <path d="M2 7h16M7 7v10" stroke="#CFCBC2" stroke-width="1.5"/>
+    </g>
+    <rect x="78" y="58" width="180" height="488" fill="#181716" stroke="#2D2B28" stroke-width="1"/>
+    <text x="96" y="84" fill="#A09B93" font-size="11" font-weight="700" letter-spacing="0.5">EXPLORER</text>
+    <g font-size="12">
+      <text x="96" y="112" fill="#635F59">▾</text>
+      <text x="110" y="112" fill="#CFCBC2" font-weight="600">WORKSPACE</text>
+      <text x="116" y="136" fill="#635F59">▾</text>
+      <text x="128" y="136" fill="#CFCBC2">services</text>
+      <text x="136" y="160" fill="#92ABC4">PY</text>
+      <text x="156" y="160" fill="#ECE8DF" font-weight="500">app.py</text>
+    </g>
+    <rect x="258" y="58" width="712" height="36" fill="#141312" stroke="#2D2B28" stroke-width="1"/>
+    <rect x="258" y="58" width="145" height="36" fill="#1E1D1B"/>
+    <line x1="258" y1="58" x2="403" y2="58" stroke="#635F59" stroke-width="2"/>
+    <text x="276" y="81" fill="#92ABC4" font-size="11" font-weight="bold">PY</text>
+    <text x="298" y="81" fill="#CFCBC2" font-size="12">app.py</text>
+    <rect x="258" y="94" width="712" height="22" fill="#1E1D1B" stroke="#2D2B28" stroke-width="1"/>
+    <text x="274" y="109" fill="#635F59" font-size="11">services  ›  app.py  ›  <tspan fill="#92ABC4">ThemeConfig</tspan></text>
+    <rect x="258" y="208" width="712" height="22" fill="#262522"/>
+    <g fill="#635F59" font-size="12" text-anchor="end">
+      <text x="292" y="136">1</text>
+      <text x="292" y="156">2</text>
+      <text x="292" y="176">3</text>
+      <text x="292" y="216" fill="#A09B93">4</text>
+      <text x="292" y="236">5</text>
+      <text x="292" y="256">6</text>
+    </g>
+    <g font-size="12" font-family="'SF Mono', Monaco, Menlo, Consolas, monospace">
+      <text x="314" y="136"><tspan fill="#92ABC4">from</tspan> <tspan fill="#CFCBC2">dataclasses</tspan> <tspan fill="#92ABC4">import</tspan> <tspan fill="#E8C9A7">dataclass</tspan></text>
+      <text x="314" y="156"><tspan fill="#92ABC4">from</tspan> <tspan fill="#CFCBC2">typing</tspan> <tspan fill="#92ABC4">import</tspan> <tspan fill="#E8C9A7">Optional</tspan></text>
+      <text x="314" y="176"><tspan fill="#87827A" font-style="italic"># Moody Dark Charcoal: Warm stone and charcoal palette</tspan></text>
+      <text x="314" y="216"><tspan fill="#DA857E">@dataclass</tspan><tspan fill="#A09B93">(</tspan><tspan fill="#CFCBC2">frozen</tspan><tspan fill="#A09B93">=</tspan><tspan fill="#E8C9A7">True</tspan><tspan fill="#A09B93">)</tspan></text>
+      <rect x="445" y="204" width="2" height="15" fill="#ECE8DF"/>
+      <text x="314" y="236"><tspan fill="#92ABC4">class</tspan> <tspan fill="#E8C9A7">ThemeConfig</tspan><tspan fill="#A09B93">:</tspan></text>
+      <text x="314" y="256"><tspan fill="#CFCBC2">    name</tspan><tspan fill="#A09B93">:</tspan> <tspan fill="#E8C9A7">str</tspan> <tspan fill="#A09B93">=</tspan> <tspan fill="#D49D7E">&quot;Moody Dark Charcoal&quot;</tspan></text>
+    </g>
+    <path d="M30 546 h940 v14 a10 10 0 0 1 -10 10 h-920 a10 10 0 0 1 -10 -10 z" fill="#181716"/>
+    <line x1="30" y1="546" x2="970" y2="546" stroke="#2D2B28" stroke-width="1"/>
+    <g font-size="11" fill="#A09B93">
+      <text x="48" y="561">⎇ main</text>
+      <text x="110" y="561">⊗ 0   ⚠ 0</text>
+      <text x="790" y="561">Ln 4, Col 19</text>
+      <text x="870" y="561">UTF-8</text>
+      <text x="920" y="561">Python</text>
+    </g>
+  </g>
+</svg>

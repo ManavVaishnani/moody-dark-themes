@@ -27,6 +27,11 @@
         "label": "Moody Dark Charcoal",
         "uiTheme": "vs-dark",
         "path": "./themes/moody-dark-charcoal-color-theme.json"
+      },
+      {
+        "label": "Moody Dark Forest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moody-dark-forest-color-theme.json"
       }
     ]
   }
